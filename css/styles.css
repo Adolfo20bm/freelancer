@@ -1,3 +1,13 @@
+/*seudoselectores*/
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+
+}
+
 /*
 html {
     font-size: 62.5%;
@@ -14,18 +24,13 @@ html {
 body {
     font-size: 16px;
 }
-h1.titulo span {
+
+.titulo {
     text-align: center;
     font-size: 3.8rem;
-    color: blue;
+    color: var(--primario);
 }
 
-.titulo span {
+.titulo span{
     font-size: 2rem;
-    color: red;
 }
-
-span {
-    color: green;
-}
-
