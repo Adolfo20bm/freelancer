@@ -14,12 +14,18 @@ html {
 body {
     font-size: 16px;
 }
-h1 {
+h1.titulo span {
     text-align: center;
     font-size: 3.8rem;
+    color: blue;
+}
+
+.titulo span {
+    font-size: 2rem;
+    color: red;
 }
 
 span {
-    font-size: 2rem;
+    color: green;
 }
 
