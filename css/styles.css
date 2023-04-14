@@ -37,8 +37,8 @@ body {
 }
 
 .contenedor {
-    width: 120rem;
-    margin: 0 auto 0 auto;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .nav-bg {
@@ -46,7 +46,14 @@ body {
 }
 .navegacion-principal{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 .navegacion-principal a {
     color: var(--blanco);
@@ -61,6 +68,3 @@ body {
     color: var(--oscuro);
 }
 
-@media (min-width: 480px) {
-    
-}
