@@ -54,7 +54,15 @@ body {
     .boton {
         width: auto;
     }
+}
 
+.sombra {
+    -webkit-box-shadow: 10px 5px 15px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 10px 5px 15px 0px rgba(0,0,0,0.54);
+    box-shadow: 10px 5px 15px 0px rgba(0,0,0,0.54);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 /* Tipografias */
@@ -113,6 +121,7 @@ h1,h2,h3 {
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 .contenido-hero {
     position: absolute;
