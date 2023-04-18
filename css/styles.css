@@ -5,6 +5,7 @@
     --primario: #FFC107;
     --secundario: #0097A7;
     --gris: #757575;
+    --grisClaro: #DFE9F3;
 
 }
 
@@ -30,6 +31,7 @@ html {
 body {
     font-size: 16px; /* 1rem = 18px */
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 .contenedor {
     max-width: 120rem;
